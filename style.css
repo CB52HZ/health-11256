@@ -28,20 +28,23 @@ background-color: antiquewhite;
 }
 
 .f{
-    background-color: antiquewhite;
-    color: #000000;
-      padding: 20px;
+  background-color: antiquewhite;
+  color: #000000;
+  padding: 20px 0;
   border: 2px solid rgb(250, 224, 191);
   border-radius: 8px;
   box-sizing: border-box;
-    
+  width: 80%  ;
+  text-align: center;
+  clear: both;
+  margin: 0 auto;
 }
 
 
 
 .ul-ber {
   list-style-type: none;
-  margin: 0;
+  margin: 0 ;
   padding: 0;
   overflow: hidden;
   background-color: #333;
@@ -67,16 +70,16 @@ background-color: antiquewhite;
   background-color: #04AA6D;
 }
 .ber{
-    width: 10000px;
+    width: 1500px;
     margin: 0px auto;}
 
 .c{
-  width: 500;
+  width: 80%;
   clear: both;
-  margin: 10px auto;
-  margin-bottom: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
   background-color: antiquewhite ;
-  padding: 20px;
+  padding: 10px;
   border: 2px solid rgb(250, 224, 191);
   border-radius: 8px;
   box-sizing: border-box;
@@ -88,4 +91,16 @@ img{
   margin-right: auto;
   width: 20%;
 
+}
+
+.TB-C{
+  font-size: 32px;
+  font-weight: bold;
+}
+.TB-F{
+  font-size: 20px;
+  font-weight: bold;
+}
+.indent {
+    text-indent: 2em;
 }
